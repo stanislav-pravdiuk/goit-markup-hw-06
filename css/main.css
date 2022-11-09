@@ -224,6 +224,13 @@ color: #212121;
 .agreement {
     margin-top: 28px;
     margin-bottom: 0px;
+    }
+
+.agreement input[type='checkbox'] {
+    width: 16px;
+    height: 15px;
+    
+    
 }
 
 .agreement-input {
