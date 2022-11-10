@@ -69,27 +69,33 @@
               <form action="" class="modal-form js-speaker-form">
                 <div class="modal-field">
                   <label class="modal-lable" for="name">Ім'я</label>
-                  <svg class="modal-icon" width="12" height="12">
-                    <use href="./images/icon.svg#icon-person"></use>
-                  </svg>
-                  <input class="modal-input" type="text" name="name" id="name" />
+                  <div class="modal-input-hover">
+                    <svg class="modal-icon" width="12" height="12">
+                      <use href="./images/icon.svg#icon-person"></use>
+                    </svg>
+                    <input class="modal-input" type="text" name="name" id="name" />
+                  </div>
                 </div>
                 <div class="modal-field">
                   <label class="modal-lable" for="tel">Телефон</label>
-                  <svg class="modal-icon" width="13" height="13">
-                    <use href="./images/icon.svg#icon-phone"></use>
-                  </svg>
-                  <input class="modal-input" type="tel" name="tel" id="tel" />
+                  <div class="modal-input-hover">
+                    <svg class="modal-icon" width="13" height="13">
+                      <use href="./images/icon.svg#icon-phone"></use>
+                    </svg>
+                    <input class="modal-input" type="tel" name="tel" id="tel" />
+                  </div>
                 </div>
                 <div class="modal-field">
                   <label class="modal-lable" for="e-mail">Пошта</label>
-                  <svg class="modal-icon" width="15" height="12">
-                    <use href="./images/icon.svg#icon-email"></use>
-                  </svg>
-                  <input class="modal-input" type="email" name="e-mail" id="e-mail" />
+                  <div class="modal-input-hover">
+                    <svg class="modal-icon" width="15" height="12">
+                      <use href="./images/icon.svg#icon-email"></use>
+                    </svg>
+                    <input class="modal-input" type="email" name="e-mail" id="e-mail" />
+                  </div>
                 </div>
                 <div class="modal-field">
-                  <label class="modal-lable" for="">Коментар</label>
+                  <label class="modal-lable" for="comment">Коментар</label>
                   <textarea
                     class="comment"
                     placeholder="Введіть текст"
@@ -452,17 +458,17 @@
             </li>
           </ul>
         </div>
-        <div class="mailing">
-          <form action="" class="js-speaker-form">
-            <label for="e-mail">Підпишіться на розсилку</label>
-            <input type="text" name="e-mail" id="e-mail" placeholder="E-mail" />
-            <button type="submit">
-              Підписатися<svg class="modal-icon" width="24" height="24">
+        <form class="mailing" action="" class="js-speaker-form">
+          <label class="mailing-lable" for="e-mail">Підпишіться на розсилку</label>
+          <div class="mailing-input-btn">
+            <input class="mailing-input" type="text" name="e-mail" id="e-mail" placeholder="E-mail" />
+            <button class="mailing-btn" type="submit">
+              Підписатися<svg class="mailing-icon" width="24" height="24">
                 <use href="./images/icon.svg#icon-send"></use>
               </svg>
             </button>
-          </form>
-        </div>
+          </div>
+        </form>
       </div>
     </footer>
     <script src="./js/modal.js"></script>

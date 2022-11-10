@@ -318,3 +318,66 @@ position: fixed;
 .social-link:hover {
     background-color: var(--secondary-logo-color);
 }
+
+/* -------------------------------------------------malling------------------------------------------------- */
+
+.mailing {
+    display: block;
+    margin-top: 10px;
+    margin-left: 93px;
+}
+
+.mailing-lable {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+        color: #FFFFFF;
+}
+
+.mailing-input-btn {
+    display: flex;
+    margin-top: 20px;
+    position: relative;
+    
+}
+
+.mailing-input {
+    width: 358px;
+    height: 50px;
+    margin-right: 12px;
+    padding-left: 16px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+
+    background-color: #2F303A;;
+}
+
+.mailing-btn {
+    cursor: pointer;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    width: 200px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.8; 
+    color: #FFFFFF;
+    text-align: center;
+    padding-right: 28px;
+}
+
+.mailing-icon {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 13px;
+    right: 28px;
+}
