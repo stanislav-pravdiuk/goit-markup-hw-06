@@ -105,19 +105,19 @@
                     rows="10"
                   ></textarea>
                 </div>
-                <div class="agreement" role="group">
-                  <input
-                    class="agreement-input"
-                    type="checkbox"
-                    name="agreement"
-                    value="agreement"
-                    id="agreement"
-                  />
-                  <label class="agreement-lable" for="agreement"
-                    >Погоджуюся з розсилкою та приймаю
+                
+                  <label class="agreement-lable"
+                    ><input
+                      class="agreement-input"
+                      type="checkbox"
+                      name="agreement"
+                      value="agreement"
+                    /><span class="checkbox-icon"></span><svg class="check-icon" width="11" height="8">
+                      <use href="./images/icon.svg#icon-check"></use>
+                    </svg>Погоджуюся з розсилкою та приймаю
                     <a class="agreement-link" href="#">Умови договору</a></label
                   >
-                </div>
+                
                 <button class="modal-btn-send" type="submit">Відправити</button>
               </form>
             </div>
@@ -461,7 +461,13 @@
         <form class="mailing" action="" class="js-speaker-form">
           <label class="mailing-lable" for="e-mail">Підпишіться на розсилку</label>
           <div class="mailing-input-btn">
-            <input class="mailing-input" type="text" name="e-mail" id="e-mail" placeholder="E-mail" />
+            <input
+              class="mailing-input"
+              type="text"
+              name="e-mail"
+              id="e-mail"
+              placeholder="E-mail"
+            />
             <button class="mailing-btn" type="submit">
               Підписатися<svg class="mailing-icon" width="24" height="24">
                 <use href="./images/icon.svg#icon-send"></use>
