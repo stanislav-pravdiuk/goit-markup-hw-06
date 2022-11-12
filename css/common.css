@@ -341,6 +341,7 @@ position: fixed;
     display: flex;
     margin-top: 20px;
     position: relative;
+    outline: none;
     
 }
 
@@ -356,7 +357,13 @@ position: fixed;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
 
-    background-color: #2F303A;;
+    color: var(--white-text-color);
+    background-color: #2F303A;
+    outline: none;
+}
+
+.mailing-input:focus-visible {
+    border-color: #2196F3
 }
 
 .mailing-btn {
@@ -372,6 +379,12 @@ position: fixed;
     color: #FFFFFF;
     text-align: center;
     padding-right: 28px;
+    border: none;
+}
+
+.mailing-btn:focus,
+.mailing-btn:hover {
+    background: #188CE8;
 }
 
 .mailing-icon {

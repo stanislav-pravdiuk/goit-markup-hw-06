@@ -204,11 +204,12 @@ color: #212121;
     cursor: pointer;
     transition-property: border-color;
     transition-duration: 250ms;
-    ransition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    outline: none;
     
 }
 
-.modal-input-hover:hover .modal-input {
+.modal-input-hover:focus-within .modal-input {
     border-color: #2196F3;
 }
 
@@ -223,7 +224,7 @@ color: #212121;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-input-hover:hover .modal-icon {
+.modal-input-hover:focus-within .modal-icon {
     fill: #2196F3;
 }
 
@@ -239,9 +240,10 @@ color: #212121;
     transition-property: border-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    outline: none;
 }
 
-.comment:hover {
+.comment:focus-visible {
     border-color: #2196F3;
 }
 
@@ -290,18 +292,13 @@ color: #212121;
 .agreement-input:checked + .checkbox-icon {
     border-color: #2196F3;
     background-color: #2196F3;
-    /* background-image: url(../images/check.svg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-origin: padding-box; */
-    
-
 }
 
 .agreement-link {
     letter-spacing: 0.03em;
     text-decoration-line: underline;
     color: #2196F3;
+    margin-left: 7px;
 }
 
 .modal-btn-send {
